@@ -1,0 +1,43 @@
+[
+  {
+    "download_info": {
+      "url": "http://127.0.0.1:8000/bar-pkg/bar_pkg-1.0.0%2Bcustom-py2.py3-none-any.whl",
+      "archive_info": {
+        "hash": "sha256=3abe0d96eec8bb0daaf09f44901554f0a752529d1c0a373c77d081a3537368fe",
+        "hashes": {
+          "sha256": "3abe0d96eec8bb0daaf09f44901554f0a752529d1c0a373c77d081a3537368fe"
+        }
+      }
+    },
+    "is_direct": false,
+    "requested": true,
+    "metadata": {
+      "metadata_version": "2.1",
+      "name": "bar-pkg",
+      "version": "1.0.0+custom",
+      "summary": "A bar-pkg"
+    }
+  },
+  {
+    "download_info": {
+      "url": "http://127.0.0.1:8000/foo-pkg/foo_pkg-2.0.0-py2.py3-none-any.whl",
+      "archive_info": {
+        "hash": "sha256=0af9e3e22f4edb0780f3bbdf44b4bdb5e52a6e5d42ee5684894b344b5434dca7",
+        "hashes": {
+          "sha256": "0af9e3e22f4edb0780f3bbdf44b4bdb5e52a6e5d42ee5684894b344b5434dca7"
+        }
+      }
+    },
+    "is_direct": false,
+    "requested": true,
+    "metadata": {
+      "metadata_version": "2.1",
+      "name": "foo-pkg",
+      "version": "2.0.0",
+      "summary": "A foo-pkg",
+      "requires_dist": [
+        "bar-pkg >= 1.0"
+      ]
+    }
+  }
+]
